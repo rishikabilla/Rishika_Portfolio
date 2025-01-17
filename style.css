@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+BE+VLG+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+BE+VLG+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+body{
+    margin:0;
+    padding:0;
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.493);
+    background-blend-mode: overlay;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.navbar
+{
+    height:10vh;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.portfolio
+{
+ padding: 13px 13px 13px 100px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 400;
+ font-size: 2.5em;
+ color: white;
+}
+.links
+{
+    display: flex;
+    flex-direction: row;
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding: 10px;
+    padding-right: 30px;
+    
+}
+.links a
+{
+    padding: 13px;
+    color: white;
+    text-decoration: none;
+    
+}
+.links :hover
+{
+    color:#e10032;
+    transform: scale(1.1);
+}
+.intro
+{
+    color:white;
+    position: absolute;
+    top:30%;
+    left:100px;
+    width:375px;
+}
+.hello
+{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+}
+.name
+{
+    color: white;
+    font-family: "Poppins",serif;
+    font-size: 2em;
+    font-weight: 600;
+}
+.role
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(13) 1 normal, blink 800ms 3s steps(13) infinite normal;
+    border-right: 2px solid white;
+}
+button
+{
+    background-color: #e10032;
+    margin-top: 5px;
+    color: white;
+    font-family: "Varela round",serif;
+    font-size: 20px;
+    padding: 2px;
+    border: 1px solid #e10032;
+    width: 120px;
+    height:40px;
+    border-radius: 2px;
+}
+button:hover
+{
+ background-color: transparent;
+}
+
+
+@keyframes typewriter
+{
+    from{ width:35%;}
+    to{width:100%;}
+}
+@keyframes blink {
+    from{border-color: white;}
+    to{border-color: transparent;}
+}
+.pic
+{
+    position:absolute;
+    right:0;
+    bottom: -20px;
+}
+.contact
+{
+    margin-top: 10px;
+}
+.contact a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    padding: 3px;
+}
+.contact a:hover
+{
+    color: #e10032;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="all_pages_style.css">
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+BE+VLG+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+
+body{
+    background-color:white;
+}
+.abt-heading
+{   
+    font-family:"Poppins",serif;
+    font-weight: 600;
+    font-size: 30px;
+    animation: slidein 1.5s ease-in 1 normal;
+    text-decoration: underline #e10032;
+}
+@keyframes slidein {
+    0%{transform: translateY(-20px);}
+    100%{transform: translateY(0);}
+}
+.about
+{   
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    width:800px;
+}
+.abt-dabba
+{    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+    margin-top: 10px;
+    padding: 15px;
+    font-family: "Poppins",serif;
+    font-size: 18px;
+    background-color: aliceblue;
+
+}
+.projects
+{
+    background-color: #e10032;
+    margin-top: 20px;
+    color: white;
+    font-family: "Varela round",serif;
+    font-size: 18px;
+    padding: 6px;
+    width: 300px;
+    height:40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e10032;
+    border-radius: 2px;
+}
+.projects:hover
+{
+    transform: scale(1.05);
+}
+</style>
+<body>
+    <div class="navbar">
+        <div class="portfolio">
+            <p class="port">Portfolio.</span></p>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about_page.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+        </div>
+    </div>
+    <div class="about">
+        <p class="abt-heading">About me</p>
+        <div class="abt-dabba">
+        <p >I am Rishika Shrinivas Billa, currently pursuing a B.Tech degree in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning (CSE-AIML), and I am in my third year.With a solid foundation in programming, I am proficient in Python, Java, and C. My technical expertise extends to frontend design, where I create visually appealing and user-friendly interfaces. I also have experience in data analysis, which allows me to extract meaningful insights from datasets and contribute to data-driven decision-making.
+         Additionally, I possess creative skills in Canva, enabling me to design engaging visuals for various purposes. My diverse skill set reflects my passion for combining technology and creativity to build innovative solutions.</p>
+        </div>
+        <a href="projects.html" style="text-decoration: none;">
+         <button id="projectlu" class="projects">Learn more about my projects</button>
+    </a>
+        </div>
+</body>
+</html>

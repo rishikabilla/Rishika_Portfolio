@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="all_pages_style.css">
+    <style>
+        body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    
+}
+
+.skills-header {
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.skills-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.skills-category h2 {
+    color: #e63946;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e63946;
+    display: inline-block;
+}
+
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-size: 18px;
+    margin: 0 0 5px;
+}
+
+.progress-bar {
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #e63946;
+    transition: width 0.3s ease-in-out;
+}
+
+ul {
+    font-size: 18px;
+    list-style-type: square;
+    padding-left: 20px;
+}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="portfolio">
+            <p class="port">Portfolio.</p>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="about_page.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="skills.html">Skills</a>
+        </div>
+    </div>
+    <header class="skills-header">
+        <h1>My Skills</h1>
+    </header>
+
+    <section class="skills-section">
+        <div class="skills-category">
+            <h2>Technical Skills</h2>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="progress-bar"><div class="progress" style="width: 70%;"></div>
+            </div>
+            <div class="skill">
+                <p>Java</p>
+                <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>Python</p>
+                <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>C</p>
+                <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill">
+                <p>MySQL</p>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+            </div>
+        </div>
+
+        <div class="skills-category">
+            <h2>Tools</h2>
+            <ul>
+                <li>Canva</li>
+                <li>Git/GitHub</li>
+                <li>VS Code</li>
+            </ul>
+        </div>
+
+        <div class="skills-category">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Communication</li>
+                <li>Problem-Solving</li>
+                <li>Teamwork</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
